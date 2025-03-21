@@ -1,0 +1,39 @@
+* {
+  font-family: "Ponomar", system-ui;
+}
+
+body {
+    /* background: linear-gradient(90deg,rgb(198, 84, 188),rgb(100, 226, 173)); */
+    background: linear-gradient(90deg, rgb(25, 25, 112), rgb(44, 62, 80));
+    color: rgb(211, 207, 207);
+    margin: 0;
+    width: 100vw;
+}
+
+img {
+    border-radius: 100%;
+    margin: 0 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid grey;
+}
+
+img:hover {
+    border: 3px solid cyan;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
